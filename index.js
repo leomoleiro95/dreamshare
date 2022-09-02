@@ -14,12 +14,12 @@ dotenv.config()
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
-app.use("/posts", postRoutes);
-app.use("/user", userRoutes);
+app.use("/fullstack_dreamshare/posts", postRoutes);
+app.use("/fullstack_dreamshare/user", userRoutes);
 
-app.get('/', (req, res) => {
-  res.send('APP IS RUNNING')
-})
+app.get("/fullstack_dreamshare", (req, res) => {
+  res.send("APP IS RUNNING WITH /fullstack_dreamshare");
+});
 
   
 const CONNECTION_URL ="mongodb+srv://dreamshare:dreamshare123@cluster0.2eer1o7.mongodb.net/?retryWrites=true&w=majority";
