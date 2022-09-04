@@ -50,9 +50,13 @@ const Home = () => {
     if(search.trim() || tags) {
       dispatch(getPostsBySearch({search, tags: tags.join(',')}))
       if(search==='none' && tags === 'none'){history.push("/posts");}
-       history.push(`/posts/search?searchQuery=${search || "none"}&tags=${tags.join(",")}`);
+       history.push(
+         `/posts/search?searchQuery=${
+           search || "none"
+         }&tags=${tags.join(",")}`
+       );
     } else {
-      history.push('/')
+      history.push("/");
     }
   }
 
