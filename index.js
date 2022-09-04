@@ -14,11 +14,11 @@ dotenv.config()
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
-app.use("/fullstack_dreamshare/posts", postRoutes);
-app.use("/fullstack_dreamshare/user", userRoutes);
+app.use("/posts", postRoutes);
+app.use("/user", userRoutes);
 
-app.get("/fullstack_dreamshare", (req, res) => {
-  res.send("APP IS RUNNING WITH /fullstack_dreamshare");
+app.get("/", (req, res) => {
+  res.send("SEPT 4TH dreamshare APP IS RUNNING WITH ");
 });
 
   
