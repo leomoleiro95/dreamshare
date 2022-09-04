@@ -1,7 +1,7 @@
 {
   "name": "dreamshare",
   "version": "0.1.0",
-  "homepage": "https://github.com/leomoleiro95/dreamshare.git",
+  "homepage": "https://leomoleiro95.github.io/dreamshare/",
   "private": true,
   "proxy": "https://dreamsharelmoleiro.herokuapp.com/",
   "dependencies": {
