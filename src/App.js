@@ -27,9 +27,9 @@ const App = () => {
             <Navbar />
             <Switch>
               <Route
-                path="/posts"
+                path="/"
                 exact
-                component={() => <Redirect to="/posts" />}
+                component={() => <Redirect to="/" />}
               />
               <Route
                 path="/posts"
