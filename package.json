@@ -1,7 +1,7 @@
 {
   "name": "dreamshare",
   "version": "0.1.0",
-  "homepage": "http://thedreamsharelm.com/",
+  "homepage": "https://lmoleiro.me/",
   "private": true,
   "proxy": "https://dreamsharelmoleiro.herokuapp.com/",
   "dependencies": {
