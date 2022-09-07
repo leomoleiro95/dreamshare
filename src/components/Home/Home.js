@@ -56,7 +56,7 @@ const Home = () => {
          }&tags=${tags.join(",")}`
        );
     } else {
-      history.push("/posts");
+      history.push(`/posts?page=${page}`); // /posts
     }
   }
 
