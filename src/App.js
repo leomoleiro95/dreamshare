@@ -26,11 +26,11 @@ const App = () => {
           <Container maxwidth="xl">
             <Navbar />
             <Switch>
-              <Route
+              {/* <Route
                 path="/"
                 exact
-                component={() => <Redirect to="/" />}
-              />
+                component={() => <Redirect to="/post" />}
+              /> */}
               <Route
                 path="/posts"
                 exact
