@@ -45,7 +45,7 @@ const Navbar = () => {
           align="center"
         >
           {" "}
-          DreamShare TESTING{" "}
+          DreamShare TESTING2.0{" "}
         </Typography>
         {/* <img className={classes.image} src={dreams} alt="dreams" height="50" /> */}
       </div>
